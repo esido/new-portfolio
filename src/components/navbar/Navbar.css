@@ -1,0 +1,47 @@
+.nav {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  border-radius: 50px;
+
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(46, 3, 72) 37%,
+    rgb(8, 1, 69) 100%
+  );
+}
+
+.nav-logo {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 52px;
+  letter-spacing: 4%;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  gap: 55px;
+}
+
+.nav-menu .nav-link {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0%;
+}
+
+.active {
+  position: relative;
+  border-bottom: 3px solid rgba(242, 55, 246, 0.76);
+  padding: 10px 0;
+  transition: all 0.5s;
+}

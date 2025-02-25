@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Jersey+15&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jersey 20", sans-serif;
+}
+
+body {
+  background: rgb(18, 7, 32);
+  background-image: url("./images/back-glow.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  color: #fff;
+}
+
+.container {
+  max-width: 1350px;
+  margin: 0 auto;
+}
