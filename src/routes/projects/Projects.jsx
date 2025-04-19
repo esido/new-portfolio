@@ -1,4 +1,3 @@
-import React from "react";
 import firstProject from "../../images/project1.png";
 import secondProject from "../../images/project2.png";
 import thirdProject from "../../images/project3.png";

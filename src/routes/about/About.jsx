@@ -1,5 +1,4 @@
 import laptop from "../../images/laptop.png";
-import codewars from "../../images/codewars.png";
 import "./About.css";
 
 const About = () => {
@@ -14,18 +13,13 @@ const About = () => {
         <div className="animate__animated animate__fadeInDown">
           <h2 className="about-title">About me</h2>
           <p className="about-text">
-            Nurmurodov Jasurbek is a 20-year-old student at TUIT and an aspiring
-            Full Stack developer passionate about creating elegant and
-            functional digital solutions. He has strong expertise in HTML, CSS,
-            JavaScript, React.js, Node.js, MongoDB, and PostgreSQL. With a keen
-            eye for detail and a commitment to continuous learning, he stays up
-            to date with industry trends. He completed frontend development
-            training at Najot Ta'lim and is currently finishing a backend
-            development course. This enables him to build optimized and
-            high-performance web applications with both server-side and
-            client-side functionality.
+            I am a passionate Full Stack Developer with experience in React,
+            Node.js, NestJS, PostgreSQL, and MongoDB. I enjoy building scalable,
+            high-performance web applications and continuously improving my
+            skills. I specialize in end-to-end development, creating both
+            frontend and backend solutions with a focus on clean code and
+            efficiency.
           </p>
-          <img src={codewars} alt="" width={700} />
         </div>
       </div>
     </section>
